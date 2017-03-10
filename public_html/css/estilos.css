@@ -22,38 +22,70 @@ ul li {
     font-weight: bold;
     padding: 10px;
     border-radius: 10px;
-    }
-    #menu{
-        text-align: center;
-    }
-    #cuerpo{
-        text-align: center;
-        font-family: aharoni;
-        font-size: 15px;
-    }
-    #pie{
-        background: #0080FF;
-        text-align: center;
-        
-    }
-    a:hober{
-        color: white;
-        font-size: 28px;
-    }
-    a{
-        text-decoration: none;
-    }
-    form{
-        /*centrando el formulario y poniendo borde*/
-        margin: 0 auto;
-        width: 600px;
-        padding: 1em;
-        border: 1px solid #000 ;
-        border-radius: 1em;
-        
-    }
-    for div{
-        margin-top: 2 em;
-        
-    }
-    
+}
+#menu{
+    text-align: center;
+}
+#cuerpo{
+    text-align: center;
+    font-family: aharoni;
+    font-size: 15px;
+}
+#pie{
+    background: #0080FF;
+    text-align: center;
+
+}
+a:hober{
+    color: white;
+    font-size: 28px;
+}
+a{
+    text-decoration: none;
+}
+form{
+    /*centrando el formulario y poniendo borde*/
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    border: 1px solid #000 ;
+    border-radius: 1em;
+    background: white
+
+}
+form div{
+    margin-top: 2em;
+
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color:  black;
+}
+a:active{
+    color:red; 
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input, textArea{
+    font: 1em Aral;
+    width:  300px;
+
+}
+input:focus, textArea:focus{
+    border-color: red;
+}
+textArea{
+    vertical-align: top;
+}
+h1{
+    text-align: center;
+}
+#fondo{
+    background: #0080FF;
+    color: red
+}
