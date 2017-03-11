@@ -15,6 +15,7 @@ and open the template in the editor.
 }
 
 ul li {
+    /*Aplicando tamaños,quitandole las rayas y adornando mis li y ul*/
     list-style-type: none;
     background: #0080FF;
     display: inline;
@@ -23,15 +24,15 @@ ul li {
     padding: 10px;
     border-radius: 10px;
 }
-#menu{
+#menu{/*centralizando mi menu*/
     text-align: center;
 }
-#cuerpo{
+#cuerpo{/*centralisando, poniendo el tipo de letra y tamaño de mis letras*/
     text-align: center;
     font-family: aharoni;
     font-size: 15px;
 }
-#pie{
+#pie{/*poniendole color a mis pie de linea*/
     background: #0080FF;
     text-align: center;
 
@@ -57,6 +58,8 @@ form div{
     margin-top: 2em;
 
 }
+/*A continuacion damos valores a las pseudoclases para indicar el 
+color del vinculo activo y visitado*/
 a:link{
     color: white;
 }
@@ -66,17 +69,20 @@ a:visited{
 a:active{
     color:red; 
 }
+/*poniendoles tamaño a mis etiquetas*/
 label{
     display: inline-block;
     width: 100px;
     text-align: right;
 }
-input, textArea{
+input, textArea{/*Aplicando el tipo y tamaño de letras*/
     font: 1em Aral;
     width:  300px;
 
 }
 input:focus, textArea:focus{
+/*aplicando el color de vorde,modificando las etiquetas y
+centralisando mi texto*/
     border-color: red;
 }
 textArea{
@@ -85,7 +91,7 @@ textArea{
 h1{
     text-align: center;
 }
-#fondo{
+#fondo{/*poniendo el color a mi lista de contactos y el color del menu */
     background: #0080FF;
-    color: red
+    color: yellowgreen
 }
